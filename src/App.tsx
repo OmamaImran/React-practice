@@ -10,6 +10,7 @@ function App() {
   const increment = () => {
     setCount((previousCount) => previousCount + 1);
   };
+
   const decrement = () => {
     setCount((previousCount) => previousCount - 1);
   };
